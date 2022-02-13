@@ -1,0 +1,346 @@
+body{
+    background-color: rgb(197, 194, 194);
+    font: 170% Lucida;
+    font-style: italic;
+    display: inline-block;
+    background: url("imagenes/fondopag.png") center center fixed;
+    
+    height: 100px;
+    width: 98%;
+    
+}
+
+.titulo{
+    font: 230% Lucida Bright;
+    font-style:italic; 
+    font-weight:600;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    padding: 20px 44px 5px 0;
+    margin-top: 3em;
+}
+
+.subtitulo{
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    margin-top: 1em;
+}
+.parrafo{
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    margin-right: 5em;
+    margin-left: 5em;
+}
+.enlaces{
+    color: #4673ee;
+    text-align: center;
+    
+    border-bottom: 0px solid;
+    line-height: 2;
+    padding: 2px 2px 5px 3px;
+    margin-top: 1.5em;
+}
+a:focus {
+    border-bottom: 1px solid;
+    color: #111111;}
+a:active { 
+    color: #111111;
+}
+
+@media only screen and (max-width: 700px){
+    body{
+         max-width: 90%;
+         margin-left: 0.1em;
+         margin-right: 0.1em;  
+        
+     }
+     .titulo{
+         transform: scale(0.7);
+         margin-top: 1em;
+         left: 0.6em;
+         margin-left: 0.1em;
+     }
+     .parrafo{
+         font-size: 18px;
+         display: block;
+         max-width: 100%;
+         text-align: center;
+     }
+     .subtitulo{
+         text-align: center;
+     }
+ }  
+
+/*------------------- CARTA DE PRESENTACION ----------------*/
+
+.pcarta{
+    font-size: 21px;
+    margin-left: 5em;
+    margin-top: 0.5em;
+    margin-right: 5em;
+    padding: 1em;
+    background-color: #ffffff;
+}
+
+.home{
+    position: fixed;
+    right: 1em;
+    vertical-align: sub;
+}
+
+.botonHome{
+    margin-top: 2%;
+    margin-left:50%;
+    padding: 4px 4px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size:xx-large;
+    text-decoration:none;
+    top: 100px;
+    display: inline-block;
+    border: skyblue;
+}
+
+@media only screen and (max-width: 700px){
+    .pcarta{
+         display: block;
+         width: 90%;
+         margin-left: 5%;
+         margin-right: 0em;
+         font-size: 16px; 
+         margin-top: 2em;
+         overflow-x: hidden;
+     }
+     .botonHome{
+        margin-left:50%;}
+
+ }  
+
+/*------------------- CURRICULUM ----------------*/
+
+.bodyCV{
+    margin-top: 1em;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+    padding: 1em;
+    color: #111111;
+    font-size:larger;
+    width: 90%;
+}
+.cuerpo{
+    background-color: #ffffff;
+    margin-top: 1em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    padding: 1em;
+    width: 90%;
+}
+.fotoCV{
+    height: 220px;
+    width: 220px;
+    margin-top: 2em;
+    margin-right: 2em;
+}
+.tituloCV{
+    margin-top: 1em;
+    background-color: #ffffff;
+}
+.Personal{
+    margin-top: 2em; 
+}
+
+.descarga{
+    margin-top: 3%;
+    margin-left: 1.5em;
+    padding: 1px 0px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: large;
+    text-decoration:none;
+    top: 100px;
+    display: inline-block;
+    border: skyblue;
+    color: #ffffff;  
+}
+
+.descarga li{
+    list-style: none;
+    text-decoration:none;
+}
+.descarga li a:hover{
+   background-color: skyblue;
+   padding: 3px 15px;
+   border-radius: 5px;
+   border-style:groove;
+   -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    list-style: none;
+}
+
+@media only screen and (max-width: 700px){
+    .cuerpo {
+         display: block;
+         width:95%;
+         left: 5px;
+         right: 5px;  
+         font-size:16px;   
+     }
+     .fotoCV{
+        display: block;
+        width: 100%;
+        height: 100px;
+        width: 100px;
+        margin-top: 1em;
+       margin-right: 1em; 
+    }
+    .bodyCV{
+        margin-top: 0.3em;
+        margin-left: 1%;
+        
+       
+        color: #111111;
+        font-size:16px;
+        width: 85%;
+    }
+}
+   
+/*------------------- CONTACTO ----------------*/
+
+.botonesRedes{
+    position: fixed;
+    left: -40px;
+    top: 100px;
+    z-index: 2000;
+}
+
+.botonesRedes ul{
+    list-style: none;
+}
+
+.botonesRedes ul li a{
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 10px 5px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.botonesRedes ul li .icon-mail2{background: #666666 ;}
+.botonesRedes ul li .icon-linkedin2{background: #0077b5 ;}
+.botonesRedes ul li .icon-whatsapp{background: #00bb2d ;}
+.botonesRedes ul li .icon-instagram{background: #ff8820 ;}
+.botonesRedes ul li .icon-facebook{background: #3b5998 ;}
+
+.botonesRedes ul li a:hover{
+    padding: 10px 30px;
+    background: #000000;
+}
+
+@media only screen and (max-width: 700px){
+    .botonesRedes{
+         display: block;
+         width: 50%;
+         top: 0px;
+         left: -50px;
+         padding: 3px 15px;             
+     }
+ }  
+
+/*----------------GALERIA-------------*/
+.titulocertificados{
+   position: relative;
+   text-align: center;
+    color: #ffffff;
+}
+.fotoscertif{
+    width: 75%;
+    display: flex;
+    margin: 4em ;
+    grid-template-columns: repeat(autofit, minmax(240px, 1fr));
+    gap: 60px;
+    box-sizing: border-box;
+}
+.fotoscertif img{
+    width: 100%;
+    cursor: pointer;
+    transition: 1s;
+}
+.fotoscertif img:hover{
+    transform: scale(1.2);
+}
+.ful-img{
+    right: 0.5em;
+    height: 110vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0.5em;
+    left: 0.5em;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+    
+}
+    
+.ful-img span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+   .fotoscertif{
+         width: 99%;
+         display: grid;
+         margin: 5%;
+         grid-template-columns: none;
+         gap: 30px;
+         box-sizing: border-box;
+          top: 0.3em;
+    }
+    .ful-img span{
+        right: 0.1em;
+        height: 100vh;
+        max-width: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: fixed;
+        top: 0.1em;
+        left: 0.1em;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        z-index: 99;      
+        object-fit: contain; 
+  }
+
+  .titulocertificados{
+    font-size: 12px;
+    width: 100%; 
+    text-align: center;
+    margin: 17px;
+   }
+
+    .fotoscertif img{
+        max-width: 100%;
+        cursor: pointer;
+        transition: 1s;
+       
+    }
+
+    .openFulImg{
+        width: 50%;
+        height: 85%;
+    }
+    
+}    
