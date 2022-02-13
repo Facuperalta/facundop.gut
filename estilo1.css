@@ -344,4 +344,7 @@ a:active {
         height: 85%;
     }
     
+     #fulImg{
+        transform: scale(0.7);
+    }
 }    
