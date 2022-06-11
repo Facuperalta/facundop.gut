@@ -302,11 +302,11 @@ a{
    .fotoscertif{
          width: 95%;
          display: grid;
-         margin: 50%;
+         margin: 10%;
          grid-template-columns: none;
          gap: 30px;
          box-sizing: border-box;
-          top: 0.3em;
+          top: 0.2em;
     }
     .ful-img span{
         position: absolute;
