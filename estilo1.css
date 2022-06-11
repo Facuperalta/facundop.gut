@@ -4,12 +4,9 @@ body{
     font-style: italic;
     display: inline-block;
     background: url("imagenes/fondopag.png") center center fixed;
-    
     height: 100px;
     width: 98%;
-    
 }
-
 .titulo{
     font: 230% Lucida Bright;
     font-style:italic; 
@@ -20,7 +17,6 @@ body{
     padding: 20px 44px 5px 0;
     margin-top: 3em;
 }
-
 .subtitulo{
     color: #ffffff;
     text-align: center;
@@ -34,11 +30,10 @@ body{
     margin-right: 5em;
     margin-left: 5em;
 }
-
 .enlaces{
     list-style: none;
     text-align: center;
-    margin-top: 7em;
+    margin-top: 25px;
 }
 .link{
   display: inline-block;
@@ -69,13 +64,11 @@ a:focus {
 a:active { 
     color: #111111;
 }
-
 @media only screen and (max-width: 700px){
     body{
          max-width: 90%;
          margin-left: 0.1em;
          margin-right: 0.1em;  
-        
      }
      .titulo{
          transform: scale(0.7);
@@ -98,19 +91,17 @@ a:active {
 
 .pcarta{
     font-size: 21px;
-    margin-left: 10em;
-    margin-top: 3em;
-    margin-right: 10em;
-    padding: 5em;
+    margin-left: 20%;
+    margin-top: 1.5em;
+    margin-right: 20%;
+    padding: 3em;
     background-color: #ffffff;
 }
-
 .home{
     position: fixed;
     right: 1em;
     vertical-align: sub;
 }
-
 .botonHome{
    text-align: center;
     margin-top: 10px;
@@ -124,17 +115,14 @@ a:active {
   margin-left: 50%;
   transform: translateX(-50%);
 }
-
 .botonHome:hover{
     animation: pulsate 1.7s ease-in-out;   
 }
 @keyframes pulsate{
     50%{
         box-shadow: 
-        0 0 25px #5ddcff, 0 0 50px #4e00c2;
-    }
+        0 0 25px #5ddcff, 0 0 50px #4e00c2; }
 }
-
 @media only screen and (max-width: 700px){
     .pcarta{
          display: block;
@@ -145,10 +133,6 @@ a:active {
          margin-top: 2em;
          overflow-x: hidden;
      }
-   
-
-     
-
  }  
 
 /*------------------- CURRICULUM ----------------*/
@@ -183,7 +167,6 @@ a:active {
 .Personal{
     margin-top: 4em; 
 }
-
 .descarga{
     margin-top: 15px;
    margin-left: 2em;
@@ -194,19 +177,15 @@ a:active {
    border: 3px solid #3c67e3;
    border-radius: 12px;  
    background-color: #ffffff;
-   
 }
 a{
     color: #3c67e3;
   }
-  
   a:active{
     color:#000000;
   }
-
 .descarga li{
     list-style: none;
-  
 }
 .descarga:hover{
     animation: pulsate 1.7s ease-in-out;   
@@ -214,10 +193,8 @@ a{
 @keyframes pulsate{
     50%{
         box-shadow: 
-        0 0 25px #5ddcff, 0 0 50px #4e00c2;
-    }
+        0 0 25px #5ddcff, 0 0 50px #4e00c2;}
 }
-
 @media only screen and (max-width: 700px){
     .cuerpo {
          display: block;
@@ -238,8 +215,6 @@ a{
     .bodyCV{
         margin-top: 0.3em;
         margin-left: 2px;
-        
-       
         color: #111111;
         font-size:16px;
         width: 75%;
@@ -254,11 +229,9 @@ a{
     top: 100px;
     z-index: 2000;
 }
-
 .botonesRedes ul{
     list-style: none;
 }
-
 .botonesRedes ul li a{
     display: inline-block;
     color: #fff;
@@ -269,18 +242,15 @@ a{
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
 }
-
 .botonesRedes ul li .icon-mail2{background: #666666 ;}
 .botonesRedes ul li .icon-linkedin2{background: #0077b5 ;}
 .botonesRedes ul li .icon-whatsapp{background: #00bb2d ;}
 .botonesRedes ul li .icon-instagram{background: #ff8820 ;}
 .botonesRedes ul li .icon-facebook{background: #3b5998 ;}
-
 .botonesRedes ul li a:hover{
     padding: 10px 30px;
     background: #000000;
 }
-
 @media only screen and (max-width: 700px){
     .botonesRedes{
          display: block;
@@ -304,8 +274,6 @@ a{
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 60px;  
-    
-
 }
 .fotoscertif img{
     width: 50%;
@@ -326,9 +294,7 @@ a{
     align-items: center;
     justify-content: center;
     z-index: 99;
-    
 }
-    
 .ful-img span{
     position: absolute;
     top: 5%;
@@ -338,10 +304,7 @@ a{
     color: #ffffff;
     cursor: pointer;
 }
-
 @media only screen and (max-width: 850px){
-   
-
    .fotoscertif{
          width: 95%;
          display: grid;
@@ -351,7 +314,6 @@ a{
          box-sizing: border-box;
           top: 0.3em;
     }
-
     .ful-img span{
         position: absolute;
         top: 5%;
@@ -361,20 +323,17 @@ a{
         color: #ffffff;
         cursor: pointer;
   }
-
   .titulocertificados{
     font-size: 12px;
     width: 100%; 
     text-align: center;
     margin: 17px;
    }
-
     .fotoscertif img{
         max-width: 100%;
         cursor: pointer;
         transition: 1s; 
     }
-
     #fulImg{
         width: 550px;
         height: 400px;
